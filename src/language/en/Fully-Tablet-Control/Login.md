@@ -1,0 +1,29 @@
+# Browser Admin Login
+
+![login](/images/media/Fully-Tablet-Control/browser-admin-login.png)
+
+### The tablets are entered here, and the query interval is defined.
+
+1. query interval set to 30 sec by default (smallest possible value is 10 sec but not recommended).
+
+2. timer in minutes to bring the Fully Browser back to the foreground (recommended for Amazon Fire tablet with Alexa as the Fully Browser will be set to the
+   background when Alexa is triggered on the tablet e.g. "Alexa how is the weather today").
+
+3. tablet name is used to create the different tablets in separate folders, if no name is specified the Ip address is used as the
+   name.
+
+4. ip address of your tablet.
+
+5. here you can enter the port if you have changed it.
+
+6. password of Fully Remote Admin **(Plus License required)**.
+
+7. here you can disable individual tablets so that they are no longer queried.
+
+8. with this button you can start a check if the tablet is reachable, for this you have to enter IP / Port and Password.
+   If a tablet is not immediately accessible, or the answer takes longer, a loading symbol is displayed, then please just wait until the result is displayed \
+   ![login](/images/media/Fully-Tablet-Control/Loading.png) \
+   As soon as the result is available a window will pop up, where you can see which tablet is online or offline.\
+   ![login](/images/media/Fully-Tablet-Control/Device_test.png)
+### For each tablet created on the first page, an entry must be created in the table on the next pages!
+

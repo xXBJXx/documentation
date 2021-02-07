@@ -1,0 +1,32 @@
+# Vis View
+## Automatischer Wechsel auf Home View
+
+Unter Vis View kann man seine Views von der Vis eintragen und die Zeit, nach der sie wieder auf die Home View wechseln sollen.
+
+![config_vis](/images/media/Fully-Tablet-Control/config_vis.png)
+
+1. Einschalten oder Ausschalten der automatische Änderung der Vis-Ansicht.
+
+2. Auswählen welche View Methode man verwendet Widget 8 wird z.B. bei (**Material Design Widgets (Top App Bar verwendet)**).
+
+3. Auswählen welche View Methode man verwendet Vis.
+
+4. hier wird euer Project eingetragen, wer nicht weiß, wo man es findet hier z. B.:
+   ![project_name1](/images/media/Fully-Tablet-Control/project_name1.png)
+   ![project_name](/images/media/Fully-Tablet-Control/project_name.png)
+
+5. hier kommt die View rein die oberste also **Nr.: 1 ist immer die Home View**.
+
+6. hier kommt die Nummer der **Widget 8 View** rein die erste ist wie bei Nr.: 4 immer die Home View.
+
+7. hier kommt nun die Zeit rein in Sekunden.
+
+## Vis View Objekte
+
+Hier sind 2 Dp.
+
+![objects_vis](/images/media/Fully-Tablet-Control/objects_vis.png)
+
+1. hier ist der Timer der die Restzeit anzeigt.
+
+2. das ist der Dp für die Widget 8 View’s.
