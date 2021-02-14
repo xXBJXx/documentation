@@ -86,6 +86,7 @@ module.exports = {
 							'/language/en/Fully-Tablet-Control/ObjectsTree',
 							'/language/en/Fully-Tablet-Control/camera_shot',
 							'/language/en/Fully-Tablet-Control/Vis-View',
+							'/language/en/Fully-Tablet-Control/TODO',
 							'/language/en/Fully-Tablet-Control/CHANGELOG',
 						]
 					},
@@ -154,6 +155,7 @@ module.exports = {
 							'/language/de/Fully-Tablet-Control/ObjectsTree',
 							'/language/de/Fully-Tablet-Control/camera_shot',
 							'/language/de/Fully-Tablet-Control/Vis-View',
+							'/language/de/Fully-Tablet-Control/TODO',
 							'/language/de/Fully-Tablet-Control/CHANGELOG',
 						]
 					},

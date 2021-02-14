@@ -52,12 +52,3 @@ Under no.**5** is a state as a button, which causes all tablets that are active 
 Under no.**6** you can find the Fully Browser Info states.
 
 Under no.**7** you can use the Fully Browser commands.
-
-## Camshot
-
-Under commands there is a state motionDetection which activates the motion detection of the tablet, and the camshot function,
-after the motionDetection is activated, you can take a picture with the state camshot, which will be send to the IoBroker.
-
-Under Device_info there is camshot64 here the previously taken photo is entered in base64. In the state camshotUrl a
-link that points to the rendered photo on your system.
-

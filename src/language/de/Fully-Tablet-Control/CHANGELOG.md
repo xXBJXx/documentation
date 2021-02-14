@@ -5,132 +5,139 @@ sidebarDepth: 2
 # Changelog
 ## Version
 
+### 0.3.3-beta.0 (2021-02-14)
+* (xXBJXx) README bearbeitet
+* (xXBJXx) Prüfung für batteryLevel = -1 % entfernt
+* (xXBJXx) Funktion camshot um Serienaufnahmen erweitert, und es ist nun möglich, mehrere Bilder aufzunehmen und zu speichern.
+  Neue Registerkarte in der Konfigurationsseite hinzugefügt.
+* (xXBJXx) Fehler bei Helligkeit-CheckIntervall behoben (wird jetzt wie vorgesehen alle x Minuten geprüft, ob sich die Helligkeit geändert hat)
+
 ### 0.3.2-beta.0 (2021-01-24)
-* (xXBJXx) fixed problem with ( has no existing object ) for the new JS controller [(issue #114)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/114)
-* (xXBJXx) fixed [(issue #120)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/120) check if the screensaver is defined added
-* (xXBJXx) fixed brightness control bug
-* (xXBJXx) Added deletion of screenSaver from config [(issue #124)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/124)
+* (xXBJXx) Problem mit (has no existing object) für den neuen JS-Controller behoben [(issue #114)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/114)
+* (xXBJXx) behoben [(issue #120)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/120) Prüfung, ob der Bildschirmschoner definiert ist hinzugefügt
+* (xXBJXx) Fehler in der Helligkeitssteuerung behoben
+* (xXBJXx) Löschung des Bildschirmschoners aus der Konfiguration hinzugefügt [(issue #124)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/124)
 
 ### 0.3.1-beta.2 (2021-01-08)
-* (xXBJXx) fixed TypeError: Cannot read property 'val' of null [(issue #113)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/113)
+* (xXBJXx) behoben TypeError: Cannot read property 'val' of null [(issue #113)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/113)
 
 ### 0.3.1-beta.1 (2021-01-01)
-* (xXBJXx) fixed Telegram error message when accessing the config page [(issue #109)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/109)
+* (xXBJXx) Telegramm-Fehlermeldung beim Zugriff auf die Config-Seite behoben [(issue #109)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/109)
 
 ### 0.3.1-beta.0 (2020-12-31)
-* (xXBJXx) test-and-release.yml update
-* (xXBJXx) admin Page Revised
-* (xXBJXx) check for 0/1 implemented for sockets [(issue #66)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/66)
+* (xXBJXx) test-and-release.yml Update
+* (xXBJXx) admin Seite überarbeitet
+* (xXBJXx) Prüfung auf 0/1 für Steckdosen implementiert [(issue #66)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/66)
 
 ### 0.3.0-beta.5 (2020-10-24)
-* (xXBJXx) reading of the user from telegram adapter instance 0-10 added
-* (xXBJXx) Current page added to Device Info
+* (xXBJXx) Auslesen des Benutzers aus Telegramm-Adapter-Instanz 0–10 hinzugefügt
+* (xXBJXx) aktuelle Seite zu Geräte-Info hinzugefügt
 
 ### 0.3.0-beta.4 (2020-10-08)
-* (xXBJXx) Motion detector is not defined warning message fixed
+* (xXBJXx) Bewegungsmelder ist nicht definiert Warnmeldung behoben
 
 ### 0.3.0-beta.3 (2020-10-08)
-* (xXBJXx) fix camshotUrl folder
+* (xXBJXx) camshotUrl-Ordner behoben
 
 ### 0.3.0-beta.2 (2020-10-06)
-* (xXBJXx) Check for invalid batteryLevel added
+* (xXBJXx) Prüfung auf ungültigen batteryLevel hinzugefügt
 
 ### 0.3.0-beta.0 (2020-10-05)
-* (xXBJXx) manual brightness revised
-* (xXBJXx) Automatic brightness revised
-* (xXBJXx) Manuele brightness expanded to include the afternoon control
-* (xXBJXx) config page revised
-* (xXBJXx) add StartUrl command
-* (xXBJXx) add command motionDetection on/Off
-* (xXBJXx) add command camshot and 2 states for Image (base64 and imageURl)
-* (xXBJXx) change README
+* (xXBJXx) manuelle Helligkeit überarbeitet
+* (xXBJXx) automatische Helligkeit überarbeitet
+* (xXBJXx) manuelle Helligkeit erweitert um die Nachmittagssteuerung
+* (xXBJXx) Config-Seite überarbeitet
+* (xXBJXx) StartUrl-Befehl hinzugefügt
+* (xXBJXx) Befehl motionDetection on/Off hinzufügen
+* (xXBJXx) Befehl camshot und 2 Zustände für Image hinzufügen (base64 und imageURl)
+* (xXBJXx) README ändern
 
 ### 0.2.15
 
-* (xXBJXx) add media Volume
+* (xXBJXx) media Volume hinzufügen
 
 ### 0.2.14
 
-* (xXBJXx) bug fix
+* (xXBJXx) Fehler behoben
 
 ### 0.2.12
 
-* (xXBJXx) screensaver brightness control can be switched on or off
-* (xXBJXx) dependencies updates
+* (xXBJXx) Bildschirmschoner-Helligkeitskontrolle kann ein- oder ausgeschaltet werden
+* (xXBJXx) Abhängigkeiten aktualisiert
 
 ### 0.2.11
 
-* (xXBJXx) add new charge option
-* (Steff42) Fix typo in words.js
+* (xXBJXx) neue Ladeoption hinzugefügt
+* (Steff42) Tippfehler in words.js behoben
 
 ### 0.2.10
 
-* (xXBJXx) request log output adjusted
+* (xXBJXx) Anfrage-Log-Ausgabe angepasst
 
 ### 0.2.9
 
-* (xXBJXx) night brightness manual change added
+* (xXBJXx) manuelle Änderung der Nachthelligkeit hinzugefügt
 
 ### 0.2.8
 
-* (xXBJXx) bug in brightness control and charging function fixed
+* (xXBJXx) Fehler in Helligkeitsregelung und Ladefunktion behoben
 
 ### 0.2.7
 
-* (xXBJXx) Astro time added
+* (xXBJXx) Astrozeit hinzugefügt
 
 ### 0.2.6
 
-* (xXBJXx) Brightness control changed and Configuration page changed
+* (xXBJXx) Helligkeitsregelung geändert und Konfigurationsseite geändert
 
 ### 0.2.5
 
-* (xXBJXx) FullyBrowser implemented
-* (xXBJXx) fixed some bugs
+* (xXBJXx) FullyBrowser implementiert
+* (xXBJXx) einige Bugs behoben
 
 ### 0.2.4
 
-* (xXBJXx) Screen saver time adjusted now in 1 min steps
-* (xXBJXx) State_of_charge adjusted
-* (xXBJXx) interval limit added
-* (xXBJXx) Switch charging control on / off added
-* (xXBJXx) Brightness activated individually
+* (xXBJXx) Bildschirmschoner Zeit jetzt in 1 min Schritten eingestellt
+* (xXBJXx) State_of_charge angepasst
+* (xXBJXx) Intervallgrenze hinzugefügt
+* (xXBJXx) Ladesteuerung ein-/ausschalten hinzugefügt
+* (xXBJXx) Helligkeit einzeln aktiviert
 
 ### 0.2.2
 
-* (xXBJXx) Adapter Name Change
+* (xXBJXx) Adapter Name ändern
 
 ### 0.2.0
 
-* (xXBJXx) charging warning message output adjusted
+* (xXBJXx) Ausgabe der Ladewarnmeldung angepasst
 
 ### 0.1.9
 
-* (xXBJXx) bug in Automatic change to home view widget 8 fixed
+* (xXBJXx) Fehler beim automatischen Wechsel zum Home View Widget 8 behoben
 
 ### 0.1.8
 
-* (xXBJXx) add Automatic change to home view
+* (xXBJXx) automatischer Wechsel in die Home-Ansicht hinzugefügt
 
 ### 0.1.5
 
-* (xXBJXx) brightness bug fix
+* (xXBJXx) Helligkeitsfehler behoben
 
 ### 0.1.4
 
-* (xXBJXx) manuell StateChange optimized
+* (xXBJXx) manuell StateChange optimiert
 
 ### 0.1.3
 
-* (xXBJXx) Configuration page changed
+* (xXBJXx) Konfigurationsseite geändert
 
 ### 0.1.2
 
-* (xXBJXx) log level adjusted
+* (xXBJXx) Log-Level angepasst
 
 ### 0.1.1
 
-* (xXBJXx) README.md edit
+* (xXBJXx) README.md bearbeitet
 
 ### 0.1.0
 
@@ -138,39 +145,39 @@ sidebarDepth: 2
 
 ### 0.0.8
 
-* (xXBJXx) device activate added
-* (xXBJXx) bug fixes
+* (xXBJXx) Gerät aktivieren hinzugefügt
+* (xXBJXx) Fehlerkorrekturen
 
 ### 0.0.7
 
-* (xXBJXx) back to Fully Browser implemented
-* (xXBJXx) bug fixes
+* (xXBJXx) zurück zu Fully Browser implementiert
+* (xXBJXx) Fehlerkorrekturen
 
 ### 0.0.6
 
-* (xXBJXx) Screensaver selection implemented
-* (xXBJXx) Motion detector added
+* (xXBJXx) Bildschirmschoner-Auswahl implementiert
+* (xXBJXx) Bewegungsmelder implementiert
 
 ### 0.0.5
 
-* (xXBJXx) manual brightness control implemented
-* (xXBJXx) Screensavers added
+* (xXBJXx) manuelle Helligkeitssteuerung implementiert
+* (xXBJXx) Bildschirmschoner hinzugefügt
 
 ### 0.0.4
 
-* (xXBJXx) request optimized for multiple devices
-* (xXBJXx) brightness control implemented
+* (xXBJXx) Anfrage für mehrere Geräte optimiert
+* (xXBJXx) Helligkeitsregelung implementiert
 
 ### 0.0.3
 
-* (xXBJXx) Charging function optimized
-* (xXBJXx) Added selection screen for continuous operation
-* (xXBJXx) Telegram warning added
+* (xXBJXx) Funktion "Laden" optimiert
+* (xXBJXx) Auswahlbildschirm für Dauerbetrieb hinzugefügt
+* (xXBJXx) Telegram warnung hinzugefügt
 
 ### 0.0.2
 
-* (xXBJXx) added charging function
+* (xXBJXx) Funktion zum Laden hinzugefügt
 
 ### 0.0.1
 
-* (xXBJXx) initial release
+* (xXBJXx) erste Freigabe
