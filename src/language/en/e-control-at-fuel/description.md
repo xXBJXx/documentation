@@ -2,11 +2,11 @@
 title: Adapter description for E-control.at fuel
 ---
 <img class="image" src="/images/media/e-control-at-fuel/e-control-at-fuel.png#center" alt="e-control-at-fuel.png" title="E-control at fuel" />
-<img src="http://iobroker.live/badges/e-control-at-fuel-installed.svg#center#install" alt="E-control at fuel installed" title="E-control at fuel installed" />
+<img src="https://iobroker.live/badges/e-control-at-fuel-installed.svg#center#install" alt="E-control at fuel installed" title="E-control at fuel installed" />
 
 [![GitHub Logo](/images/GitHub.png#icons)](https://github.com/xXBJXx/ioBroker.e-control-at-fuel)
 
-[![NPM version](http://img.shields.io/npm/v/iobroker.e-control-at-fuel.svg?logo=npm#NPM)](https://www.npmjs.com/package/iobroker.e-control-at-fuel)
+[![NPM version](https://img.shields.io/npm/v/iobroker.e-control-at-fuel.svg?logo=npm#NPM)](https://www.npmjs.com/package/iobroker.e-control-at-fuel)
 ``` shell
 npm i iobroker.e-control-at-fuel
 ```
