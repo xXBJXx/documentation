@@ -5,6 +5,10 @@ sidebarDepth: 2
 # Changelog
 ## Version
 
+### 0.1.6-0 (2021-02-26)
+* (xXBJXx) README edited and deleted unused images
+* (xXBJXx) MQTT instance selection add and auto delete states removed
+
 ### 0.1.5-0 (2021-01-27)
 * (xXBJXx) Update dependabot.yml and test-and-release.yml
 * (xXBJXx) Dependency updates
