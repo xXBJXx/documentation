@@ -53,7 +53,7 @@ module.exports = {
 	themeConfig: {
 		repo: 'https://github.com/xXBJXx/documentation',
 		editLinks: true,
-		// docsDir: '',
+		docsDir: 'src',
 		// editLinkText: '',
 		logo: '/images/ioBroker.svg',
 		smoothScroll: true,
