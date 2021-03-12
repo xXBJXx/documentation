@@ -1,0 +1,63 @@
+---
+title: Adapter Beschreibung für E-control.at fuel
+---
+
+# Kraftstoffpreise für Österreich
+<img class="image" src="/images/media/e-control-at-fuel/e-control-at-fuel.png#center" alt="e-control-at-fuel.png" title="E-control at fuel" />
+<img src="https://iobroker.live/badges/e-control-at-fuel-installed.svg#center#install" alt="E-control at fuel installed" title="E-control at fuel installed" />
+
+[![GitHub Logo](/images/GitHub.png#icons)](https://github.com/xXBJXx/ioBroker.e-control-at-fuel)
+
+[![NPM version](https://img.shields.io/npm/v/iobroker.e-control-at-fuel.svg?logo=npm#NPM)](https://www.npmjs.com/package/iobroker.e-control-at-fuel)
+``` shell
+npm i iobroker.e-control-at-fuel
+```
+
+[Forumsbeitrag](https://forum.iobroker.net/topic/33033/e-control-at-fuel-kraftstoffpreise-f%C3%BCr-%C3%B6sterreich)
+
+### Der Adapter liest die Spritpreise von E-Control.at aus:
+
+![config.png](/images/media/e-control-at-fuel/config.png)
+
+Auf der config Seite muss man nur den Intervall **(die kleinste einstellbare Zeit ist 10 min)** setzen und die Latitude 
+und Longitude eintragen diese könnt ihr hier nach schauen **https://www.latlong.net/** dann wählt man nur noch aus 
+welchem Sprit man will und fertig.
+
+Sobald der Adapter startet, wird für jeden Städtenamen und die Kraftstoffart die auf der Config seite angegeben wurde, 
+ein Ordner angelegt z.B. **rosenheim_diesel** und in diesem Ordner werden die Tankstellenordner angelegt die Anzahl 
+hängt von den Tankstellen ab, die ihre Preise übermitteln es wird noch 1 Ordner angelegt die günstigsten Tankstellen, 
+und eine JSON-Tabelle für alle Tankstellen, die in dem Ordner angelegt wurden.
+
+![objects.png](/images/media/e-control-at-fuel/objects.png)
+
+Der Preis ist in 3 verschiedene Angaben geteilt einmal der normale preis z.B. **0.962€** beim 2ten wurde die **2** 
+entfernt **0.96€** bei dieser Variante kann man mit Hilfe von CSS und Bindings in der vis die entfernte **2** in klein 
+anzeigen lasen z.B. so **0.96²€** und der 3te ist die entfernte **2**.
+der state combined ist ein html code, der den priceshort und price3rd verbindet zu z.B. 0.93³€ dieser kann in der vis 
+in html Widget genutzt werden.
+
+![price.png](/images/media/e-control-at-fuel/price.png)
+
+![html-widget.png](/images/media/e-control-at-fuel/html-widget.png)
+
+Ich empfehle damit Bindings zu arbeiten so z.B. **{e-control-at-fuel.0.radstadt_CNG.cheapest.prices.combined}** der 
+Wert wird dann automatisch aktualisiert
+dem html wird eine CSS class mitgegeben hier noch die passende CSS:
+
+``` css
+
+.station_open {
+    color: blue;
+}
+
+.station_closed {
+    color: red !important; /* !important kann ggf. weggelassen werden */
+}
+
+/* € sign */
+.station_combined_euro {
+    font-family: Times;
+    font-size: 80%;
+}
+
+```
