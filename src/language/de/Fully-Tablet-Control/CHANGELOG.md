@@ -5,6 +5,11 @@ sidebarDepth: 2
 # Changelog
 ## Version
 
+### 0.3.4-0 (2021-04-30)
+* (xXBJXx) Aktualisierungen der Abhängigkeiten
+* (xXBJXx) falschen Typ von displayWidthPixels und displayHeightPixels korrigiert [(issue #164)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/164)
+* (xXBJXx) encodeUrl hinzugefügt und Log-Meldung geändert
+
 ### 0.3.3-beta.0 (2021-02-14)
 * (xXBJXx) README bearbeitet
 * (xXBJXx) Prüfung für batteryLevel = -1 % entfernt
