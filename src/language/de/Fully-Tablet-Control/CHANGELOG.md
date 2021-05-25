@@ -5,6 +5,13 @@ sidebarDepth: 2
 # Changelog
 ## Version
 
+### 0.3.5-0 (2021-05-25)
+* (xXBJXx) Helligkeit Modus wechsel optimiert
+* (xXBJXx) Adapterebene auf 3 gesetzt
+* (xXBJXx) Abhängigkeiten aktualisiert
+* (xXBJXx) Prüfen, ob Adapterkonfiguration gültig ist geändert
+* (xXBJXx) Prüfung und Test für Node.js 16 hinzugefügt [(issue #170)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/170)
+
 ### 0.3.4-0 (2021-04-30)
 * (xXBJXx) Aktualisierungen der Abhängigkeiten
 * (xXBJXx) falschen Typ von displayWidthPixels und displayHeightPixels korrigiert [(issue #164)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/164)

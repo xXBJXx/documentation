@@ -5,6 +5,13 @@ sidebarDepth: 2
 # Changelog
 ## Version
 
+### 0.3.5-0 (2021-05-25)
+* (xXBJXx) Brightness change Mode optimized
+* (xXBJXx) Adapter tier set to 3
+* (xXBJXx) dependencies updates
+* (xXBJXx) Check if adapter config is valid modified
+* (xXBJXx) added check and testing for Node.js 16 [(issue #170)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/170)
+
 ### 0.3.4-0 (2021-04-30)
 * (xXBJXx) dependencies updates
 * (xXBJXx) fixed wrong type of displayWidthPixels and displayHeightPixels [(issue #164)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/164)
