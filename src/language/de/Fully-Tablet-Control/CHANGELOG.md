@@ -5,6 +5,9 @@ sidebarDepth: 2
 # Changelog
 ## Version
 
+### 0.3.6-0 (2021-05-27)
+* (xXBJXx) State "s" hat keine vorhandene Objekt meldung behoben [(issue #184)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/184)
+
 ### 0.3.5-0 (2021-05-25)
 * (xXBJXx) Helligkeit Modus wechsel optimiert
 * (xXBJXx) Adapterebene auf 3 gesetzt
