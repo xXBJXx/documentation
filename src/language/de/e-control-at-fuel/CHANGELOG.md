@@ -5,6 +5,8 @@ sidebarDepth: 2
 # Changelog
 ## Version
 
+### 0.1.6-beta.2 (2021-07-11)
+* (xXBJXx) Adapter wird nicht mehr gewartet bitte beachten Sie die Info!
 
 ### 0.1.6-beta.1 (2021-01-27)
 * (xXBJXx) Fehler behoben test-and-release.yml
