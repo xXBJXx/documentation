@@ -5,6 +5,10 @@ sidebarDepth: 2
 # Changelog
 ## Version
 
+### 0.3.6-1 (2021-06-10)
+* (xXBJXx) ändern von Adapter Dokumentation Link [(issue #193)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/193)
+
+
 ### 0.3.6-0 (2021-05-27)
 * (xXBJXx) State "s" hat keine vorhandene Objekt meldung behoben [(issue #184)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/184)
 

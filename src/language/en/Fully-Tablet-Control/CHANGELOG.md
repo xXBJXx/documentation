@@ -5,6 +5,9 @@ sidebarDepth: 2
 # Changelog
 ## Version
 
+### 0.3.6-1 (2021-06-10)
+* (xXBJXx) change from adapter documentation link [(issue #193)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/193)
+
 ### 0.3.6-0 (2021-05-27)
 * (xXBJXx) State "s" has no existing object message fixed [(issue #184)](https://github.com/xXBJXx/ioBroker.fully-tablet-control/issues/184)
 
