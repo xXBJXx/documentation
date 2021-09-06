@@ -5,6 +5,11 @@ sidebarDepth: 2
 # Changelog
 ## Version
 
+### 0.1.7-0 (2021-09-06)
+* (xXBJXx) test-and-release.yml aktualisieren
+* (xXBJXx) Aktualisierung der Abhängigkeiten
+* (xXBJXx) Überprüfung der erstellten datenpunkt struktur hinzugefügt
+
 ### 0.1.6-0 (2021-02-26)
 * (xXBJXx) README bearbeitet und unbenutzte Bilder gelöscht
 * (xXBJXx) MQTT-Instanz Auswahl hinzufügen und automatisches löschen der states entfernt
