@@ -4,3 +4,5 @@ node_modules
 /.run/
 /.temp/
 /docs/
+
+.DS_Store
