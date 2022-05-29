@@ -3,7 +3,6 @@ import {searchPlugin} from '@vuepress/plugin-search';
 import theme from './theme';
 
 export default defineUserConfig({
-	host: 'localhost',
 	base: '/',
 
 	locales: {
