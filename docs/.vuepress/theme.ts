@@ -17,7 +17,10 @@ export default hopeTheme({
 
 	logo: '/ioBroker.svg',
 
-	repo: 'https://github.com/xXBJXx?tab=repositories',
+	repo: 'https://github.com/xXBJXx/',
+	docsRepo: 'https://github.com/xXBJXx/documentation',
+	docsBranch: 'main',
+	docsDir: 'docs',
 	// Customising the header label
 	// Defaults to "GitHub" / "GitLab" / "Gitee" / "Bitbucket" or "Source" depending on `repo`
 	repoLabel: 'GitHub',
@@ -78,6 +81,7 @@ export default hopeTheme({
 	// },
 
 	plugins: {
+
 		// blog: {
 		// 	autoExcerpt: false,
 		// },
