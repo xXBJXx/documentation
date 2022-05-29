@@ -1,25 +1,19 @@
 {
   "name": "xxbjxx-adapter-documentation",
-  "version": "0.0.3",
-  "description": "",
-  "main": "index.js",
-  "authors": {
-    "name": "xXBJXx",
-    "email": "issi.dev.iobroker@gmail.com"
-  },
-  "repository": "",
+  "version": "0.0.5",
+  "description": "ioBroker Adapter from xXBJXx Documentation",
   "scripts": {
-    "dev": "vuepress dev src --temp .temp",
-    "build": "vuepress build src"
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "dev": "vuepress dev docs"
   },
+  "author": "xXBJXx",
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.9.5",
-    "@vuepress/plugin-medium-zoom": "^1.9.5",
-    "vuepress": "^1.9.5",
-    "vuepress-plugin-code-copy": "^1.0.6"
-  },
-  "dependencies": {
-    "vuepress-plugin-code-copy": "^1.0.6"
+    "@vuepress/client": "^2.0.0-beta.45",
+    "@vuepress/plugin-search": "^2.0.0-beta.45",
+    "vue": "^3.2.33",
+    "vuepress": "^2.0.0-beta.45",
+    "vuepress-theme-hope": "^2.0.0-beta.70"
   }
 }
