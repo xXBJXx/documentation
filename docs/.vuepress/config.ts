@@ -4,6 +4,8 @@ import theme from './theme';
 export default defineUserConfig({
 	base: '/',
 
+
+
 	locales: {
 		'/': {
 			lang: 'en-US',
@@ -11,7 +13,7 @@ export default defineUserConfig({
 			description: 'Documentation for IoBrokers Adapter from xXBJXx',
 		},
 		'/de/': {
-			lang: 'de-DE',
+			lang: 'en-US',
 			title: 'Dokumentation für IoBrokers Adapter von xXBJXx',
 			description: 'Dokumentation für IoBrokers Adapter von xXBJXx',
 		},

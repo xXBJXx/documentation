@@ -1,3 +1,4 @@
+// import {sidebar} from 'vuepress-theme-hope';
 import {sidebar} from 'vuepress-theme-hope';
 
 export const en = sidebar({
@@ -8,13 +9,6 @@ export const en = sidebar({
 			collapsable: true,
 			prefix: 'fully-tablet-control/',
 			children: [
-				// {
-				// 	text: 'App',
-				// 	icon: 'android',
-				// 	collapsable: true,
-				// 	prefix: 'app/',
-				// 	children: [''],
-				// },
 				{
 					text: 'Adapter',
 					icon: 'setting',

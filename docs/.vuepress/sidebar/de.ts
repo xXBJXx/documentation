@@ -8,13 +8,6 @@ export const de = sidebar({
 			collapsable: true,
 			prefix: 'fully-tablet-control/',
 			children: [
-				// {
-				// 	text: 'App',
-				// 	icon: 'android',
-				// 	collapsable: true,
-				// 	prefix: 'app/',
-				// 	children: [''],
-				// },
 				{
 					text: 'Adapter',
 					icon: 'setting',
