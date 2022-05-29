@@ -1,6 +1,6 @@
 {
   "name": "xxbjxx-adapter-documentation",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "ioBroker Adapter from xXBJXx Documentation",
   "scripts": {
     "docs:build": "vuepress build docs",
