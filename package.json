@@ -10,10 +10,11 @@
   "author": "xXBJXx",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/cli": "2.0.0-beta.46",
     "@vuepress/client": "^2.0.0-beta.45",
-    "vue": "^3.2.33",
-    "vuepress": "^2.0.0-beta.46",
-    "vuepress-theme-hope": "^2.0.0-beta.75",
-    "vue-router": "^4.0.15"
+    "vue": "^3.2.36",
+    "vuepress": "^2.0.0-beta.45",
+    "vuepress-theme-hope": "^2.0.0-beta.71",
+    "vuepress-vite": "2.0.0-beta.46"
   }
 }

@@ -7,7 +7,6 @@ export const de = sidebar({
 			icon: 'read',
 			collapsable: true,
 			prefix: 'fully-tablet-control/',
-			link: 'fully-tablet-control/',
 			children: [
 				// {
 				// 	text: 'App',
