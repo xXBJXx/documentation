@@ -39,6 +39,20 @@ headerDepth: 2
 ---
 
 ## Version
+### 0.3.0 (2022-05-29)
+* (xXBJXx) Admin UI zu einer neuen React UI umgebaut.
+* (xXBJXx) Aktualisierung der Abhängigkeiten und Hinzufügen neuer Abhängigkeiten für die neue React UI.
+* (xXBJXx) Codebereinigung
+	* Eine Abfrage hinzugefügt, ob der Adapter im Debug-Modus läuft, um nicht so viel Log zu schreiben.
+	* die Abfrage für die MQTT state's wurde überarbeitet.
+	* Neuer Status hinzugefügt [mjpegStream, connected, json].
+	* neuer Befehl hinzugefügt [settings], mit dem man die Einstellungsseite im Wallpanel aufrufen kann.
+	* MQTT state Erstellung etwas angepasst, sodass der sensor Ordner nicht erstellt wird, wenn MQTT ausgeschaltet ist.
+	* Löschfunktion hinzugefügt, um Geräte zu löschen, die nicht mehr konfiguriert sind.
+	* Code angepasst für die neue React UI [onMessage] wurde aktiviert.
+* (xXBJXx) README und Lizenzdatum aktualisieren
+
+
 ### 0.2.0-0.0 (2022-03-28)
 * (xXBJXx) automatische Übersetzungen migriert von gulp nach ⇨ [iobroker/adapter-dev](https://github.com/ioBroker/adapter-dev)
 * (xXBJXx) Abhängigkeiten aktualisiert

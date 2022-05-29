@@ -13,6 +13,7 @@ Documentation for IoBrokers Adapter from xXBJXx
 ### 0.1.0 (2022-05-29)
 * (xXBJXx) new release with a new look written in vuepress v2
 * (xXBJXx) written new ioBroker.Wallpanel Documentation
+* (xXBJXx) wallpanel changelog updated
 
 
 ----
