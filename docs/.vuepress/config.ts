@@ -1,5 +1,4 @@
 import {defineUserConfig} from 'vuepress';
-import {searchPlugin} from '@vuepress/plugin-search';
 import theme from './theme';
 
 export default defineUserConfig({
@@ -17,22 +16,6 @@ export default defineUserConfig({
 			description: 'Dokumentation für IoBrokers Adapter von xXBJXx',
 		},
 	},
-
-	plugins: [
-		[
-			searchPlugin({
-				locales: {
-					'/': {
-						placeholder: 'Search...',
-					},
-					'/de/': {
-						placeholder: 'Suche...',
-					},
-				},
-				maxSuggestions: 15,
-			}),
-		],
-	],
 
 	theme,
 });
