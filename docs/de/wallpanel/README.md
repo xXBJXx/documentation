@@ -1,8 +1,40 @@
 ---
+
+# This control sidebar index
+
 index: false
-icon: creative
+
+# This is the icon of the page
+
+icon: article
+
+# This is the title of the article
+
+title: Beschreibung für Wallpanel
+
+# Set author
+
+author: xXBJXx
+
+# Set writing time
+
+date: 2022-05-24
+
+# A page can have multiple categories
+
 category:
-  - Wallpanel
+
+- Wallpanel
+
+# A page can have multiple tags
+
+tag:
+
+- Wallpanel
+
+# The page’s sidebar heading rendering depth.
+
+headerDepth: 1
 ---
 
 <img :src="$withBase('/media/wallpanel/wallpanel.png#center')" alt="VuePress Logo">
@@ -24,6 +56,7 @@ category:
 * Adapter:<br>
 [![App](../../.vuepress/public/media/wallpanel/adapter.png#navIcon)](admin-gui.md)
 <br/>
+
 ## Adapter Beschreibung
 
 Mit dem Adapter kann man ein paar Werte wie Helligkeit abfragen und über MQTT dann noch <br> zusätzlich Batterie stand und noch paar Sachen mehr abfragen diese Werter werden in
