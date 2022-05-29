@@ -54,23 +54,23 @@ export default hopeTheme({
 		/**
 		 * German locale config
 		 */
-		'/de/': {
-			// navbar
-			navbar: navbar.de,
-
-			// sidebar
-			sidebar: sidebar.de,
-
-			footer: license,
-			copyright: false,
-
-			displayFooter: true,
-
-			metaLocales: {
-				toc: 'Inhaltsverzeichnis',
-
-			},
-		},
+		// '/de/': {
+		// 	// navbar
+		// 	navbar: navbar.de,
+		//
+		// 	// sidebar
+		// 	sidebar: sidebar.de,
+		//
+		// 	footer: license,
+		// 	copyright: false,
+		//
+		// 	displayFooter: true,
+		//
+		// 	metaLocales: {
+		// 		toc: 'Inhaltsverzeichnis',
+		//
+		// 	},
+		// },
 	},
 
 	// encrypt: {
