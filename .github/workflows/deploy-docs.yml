@@ -1,101 +1,107 @@
 #
+#
 #name: Deploy Docs
 #
 #on:
+#  # trigger deployment on every push to main branch
 #  push:
-#    branches:
-#      # make sure this is the branch you are using
-#      - main
+#    branches: [main]
+#  # trigger deployment manually
+#  workflow_dispatch:
 #
 #jobs:
-#  deploy-gh-pages:
+#  deploy-docs:
 #    runs-on: ubuntu-latest
+#
 #    steps:
-#      - name: Checkout
-#        uses: actions/checkout@v3
+#      - uses: actions/checkout@v2
 #        with:
+#          # fetch all commits to get last updated time or other git log info
 #          fetch-depth: 0
-#          # if your docs needs submodules, uncomment the following line
-#          # submodules: true
-#
-#
 #
 #      - name: Setup Node.js
-#        uses: actions/setup-node@v3
+#        uses: actions/setup-node@v2
 #        with:
-#          node-version: 16
-#          cache: npm
+#          # choose node.js version to use
+#          node-version: '16'
 #
-#      - name: Install Deps
-#        run: npm install
+##      # cache node_modules
+##      - name: Cache dependencies
+##        uses: actions/cache@v3
+##        id: yarn-cache
+##        with:
+##          path: |
+##            **/node_modules
+##          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+##          restore-keys: |
+##            ${{ runner.os }}-yarn-
 #
-#      - name: Build Docs
+#      # install dependencies if the cache did not hit
+#      - name: Install dependencies
+#        if: steps.yarn-cache.outputs.cache-hit != 'true'
+#        run: yarn --frozen-lockfile
+#
+#      # run build script
+#      - name: Build Docu site
+#        run: yarn docs:build
+#
+#      # please check out the docs of the workflow for more details
+#      # @see https://github.com/crazy-max/ghaction-github-pages
+#      - name: Deploy to GitHub Pages
+#        uses: crazy-max/ghaction-github-pages@v2
+#        with:
+#          repo: xXBJXx/xXBJXx.github.io
+#          # deploy to gh-pages branch
+#          target_branch: gh-pages
+#          # deploy the default output dir of VuePress
+#          build_dir: docs/.vuepress/dist
 #        env:
-#          NODE_OPTIONS: --max_old_space_size=4096
-#        run: npm run docs:build
+#          # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+#          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 #
-#      - name: Deploy Docs
-#        uses: JamesIves/github-pages-deploy-action@v4
-#        with:
-#          # This is the branch where the docs are deployed to
-#          branch: gh-pages
-#          folder: docs/.vuepress/dist
+#
 
 name: Deploy Docs
 
 on:
-  # trigger deployment on every push to main branch
   push:
-    branches: [main]
-  # trigger deployment manually
-  workflow_dispatch:
+    branches:
+      # make sure this is the branch you are using
+      - main
 
 jobs:
-  deploy-docs:
+  deploy-gh-pages:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
-          # fetch all commits to get last updated time or other git log info
           fetch-depth: 0
+          # if your docs needs submodules, uncomment the following line
+          # submodules: true
+
+
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          # choose node.js version to use
-          node-version: '16'
+          node-version: 16
+          cache: npm
 
-#      # cache node_modules
-#      - name: Cache dependencies
-#        uses: actions/cache@v3
-#        id: yarn-cache
-#        with:
-#          path: |
-#            **/node_modules
-#          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-#          restore-keys: |
-#            ${{ runner.os }}-yarn-
+      - name: Install Deps
+        run: npm install
 
-      # install dependencies if the cache did not hit
-      - name: Install dependencies
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run: yarn --frozen-lockfile
-
-      # run build script
-      - name: Build Docu site
-        run: yarn docs:build
-
-      # please check out the docs of the workflow for more details
-      # @see https://github.com/crazy-max/ghaction-github-pages
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          repo: xXBJXx/xXBJXx.github.io
-          # deploy to gh-pages branch
-          target_branch: gh-pages
-          # deploy the default output dir of VuePress
-          build_dir: docs/.vuepress/dist
+      - name: Build Docs
         env:
-          # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          NODE_OPTIONS: --max_old_space_size=4096
+        run: npm run docs:build
+
+      - name: Deploy Docs
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # This is the branch where the docs are deployed to
+          repository-name: xXBJXx/xXBJXx.github.io
+          branch: gh-pages
+          folder: /
+          token: ${{ secrets.ACCESS_TOKEN }}
+       
