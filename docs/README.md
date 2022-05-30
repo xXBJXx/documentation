@@ -4,7 +4,7 @@ icon: home
 title: Startseite
 heroImage: https://avatars2.githubusercontent.com/u/32600934?s=460&u=d0d071b5ed8f5151d814ae42daa60201fa90d7d4&v=4
 heroText: ioBrokers Adapter von xXBJXx
-tagline: Dokumentation für ioBrokers Adapters von xXBJXx
+tagline: Documentation for ioBrokers Adapters by xXBJXx
 
 features:
 

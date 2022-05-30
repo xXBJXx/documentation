@@ -14,7 +14,7 @@ export default defineUserConfig({
 			description: 'Documentation for IoBrokers Adapter from xXBJXx',
 		},
 		'/de/': {
-			lang: 'en-US',
+			lang: 'de-DE',
 			title: 'Dokumentation für IoBrokers Adapter von xXBJXx',
 			description: 'Dokumentation für IoBrokers Adapter von xXBJXx',
 		},
@@ -35,5 +35,6 @@ export default defineUserConfig({
 			}),
 		],
 	],
+
 	theme,
 });
