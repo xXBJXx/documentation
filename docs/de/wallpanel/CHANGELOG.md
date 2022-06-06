@@ -39,6 +39,19 @@ headerDepth: 2
 ---
 
 ## Version
+### 0.3.7 (2022-06-06)
+* (xXBJXx) Node-Versionsunterstützung auf >= v15.x.x gesetzt, da neue Funktionen von Node.js benötigt werden.
+* (xXBJXx) mqtt topic Anzeige Richtung korrigiert
+
+### 0.3.6 (2022-05-30)
+* (xXBJXx) Vorbereitung zur Veröffentlichung im Iobroker Repo. Adapter-Check Probleme bearbeitet
+
+### 0.3.5 (2022-05-30)
+* (xXBJXx) Aktualisierung des Changelogs und Behebung von Typproblemen
+
+### 0.3.3 (2022-05-30)
+* (xXBJXx) Update Abhängigkeiten
+
 ### 0.3.0 (2022-05-29)
 * (xXBJXx) Admin UI zu einer neuen React UI umgebaut.
 * (xXBJXx) Aktualisierung der Abhängigkeiten und Hinzufügen neuer Abhängigkeiten für die neue React UI.

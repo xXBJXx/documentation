@@ -47,6 +47,8 @@ headerDepth: 1
 <br>
 [![NPM downloads](https://nodei.co/npm/iobroker.wallpanel.png)](https://www.npmjs.com/package/iobroker.wallpanel)
 
+## <span style="color:red; fontSize:1.3em; font-weight:bold">Der Adapter benötigt eine Node.js Version >= 15.x</span>
+
 
 ## Einstellungsmöglichkeiten
 

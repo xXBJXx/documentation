@@ -37,13 +37,15 @@ tag:
 headerDepth: 2
 ---
 
-<img :src="$withBase('/media/wallpanel/wallpanel.png#center')" alt="VuePress Logo">
+<img :src="$withBase('/media/wallpanel/wallpanel.png#center')" alt="Wallpanel logo">
 
 [![GitHub release](https://img.shields.io/github/v/release/xXBJXx/ioBroker.wallpanel?include_prereleases&label=GitHub%20release&logo=github)](https://github.com/xXBJXx/ioBroker.wallpanel)
 [![NPM version](https://img.shields.io/npm/v/iobroker.wallpanel.svg?logo=npm)](https://www.npmjs.com/package/iobroker.wallpanel)
 [![NPM downloads](https://img.shields.io/npm/dm/iobroker.wallpanel.svg?logo=npm)](https://www.npmjs.com/package/iobroker.wallpanel)
 ![Installed](https://iobroker.live/badges/wallpanel-installed.svg)
 [![NPM downloads](https://nodei.co/npm/iobroker.wallpanel.png)](https://www.npmjs.com/package/iobroker.wallpanel)
+
+## <span style="color:red; fontSize:1.3em; font-weight:bold">The adapter requires a Node.js version >= 15.x</span>
 
 ## Setting options
 

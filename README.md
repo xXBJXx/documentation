@@ -9,6 +9,12 @@ Documentation for IoBrokers Adapter from xXBJXx
 # Changelog
 
 ## Version
+### 0.1.2 (2022-06-06)
+* (xXBJXx) wallpanel changelog updated
+
+### 0.1.1 (2022-05-30)
+* (xXBJXx) wallpanel changelog updated
+
 
 ### 0.1.0 (2022-05-29)
 * (xXBJXx) new release with a new look written in vuepress v2
