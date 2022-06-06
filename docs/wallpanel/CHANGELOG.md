@@ -40,7 +40,7 @@ headerDepth: 2
 
 ## Version
 ### 0.3.7 (2022-06-06)
-* (xXBJXx) Node version support set to >= v15.x.x because of new features of Node.js that are needed.
+* (xXBJXx) Node version support set to >= v16.x because of new features of Node.js that are needed.
 * (xXBJXx) fixed mqtt topic Display Direction
 
 ### 0.3.6 (2022-05-30)

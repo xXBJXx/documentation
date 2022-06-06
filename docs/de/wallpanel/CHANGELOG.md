@@ -40,7 +40,7 @@ headerDepth: 2
 
 ## Version
 ### 0.3.7 (2022-06-06)
-* (xXBJXx) Node-Versionsunterstützung auf >= v15.x.x gesetzt, da neue Funktionen von Node.js benötigt werden.
+* (xXBJXx) Node-Versionsunterstützung auf >= v16.x gesetzt, da neue Funktionen von Node.js benötigt werden.
 * (xXBJXx) mqtt topic Anzeige Richtung korrigiert
 
 ### 0.3.6 (2022-05-30)
