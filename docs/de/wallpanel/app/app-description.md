@@ -42,13 +42,14 @@ headerDepth: 1
 [![downloads](https://img.shields.io/github/downloads/TheTimeWalker/wallpanel-android/total)](https://github.com/TheTimeWalker/wallpanel-android)
 [![GitHub Repository](https://tinyurl.com/2o6jmf53)](https://github.com/TheTimeWalker/wallpanel-android)
 
+Die App ist nicht mehr im Play Store verfügbar, man kann sie aber immer noch von GitHub über eine APK installieren
++ original (Play Store Version) ⇨ [Alte Version](https://github.com/thecowan/wallpanel-android/releases) wird nicht weiter entwickelt
++ neue Version im zurzeit nur auf GitHub ⇨ [neue Version](https://github.com/TheTimeWalker/wallpanel-android/releases) wird weiter entwickelt.
+
 ::: warning Achtung
-<span style="color:orange; font-size:1em; font-weight: bold" >Die App im Play Store ist leider schon veraltet und nicht mehr aktuell.</span>
+<span style="color:red; fontSize:1.3em; font-weight:bold">Achtung, wen ihr von Github eine APP installiert dann installiert ihr das "von einer unbekannten Quelle"
+das kann unter Umständen gefährlich sein, da hier die App von keiner Offiziellen quelle auf Schadsoftware geprüft wurde.</span>
 :::
-
-Die Wallpanel App kann man im [Google Play Store](https://play.google.com/store/apps/details?id=com.thanksmister.iot.wallpanel&hl=de) herunterladen.
-
-![GooglePlayStore](../../../.vuepress/public/media/wallpanel/GooglePlayStore.png)
 
 ::: tip Info
 Das Projekt wurde vom <span style="font-size:1.2em; font-weight: bold" >[TheTimeWalker](https://github.com/TheTimeWalker/wallpanel-android)</span> übernommen und wird auf

@@ -49,12 +49,8 @@ headerDepth: 2
 
 ## Setting options
 
-* App:<br>
-  [![App](../.vuepress/public/media/wallpanel/GooglePlayStore.png#navIcon)](app/app-description.md)
-  <br/>
-* Adapter:<br>
-  [![App](../.vuepress/public/media/wallpanel/adapter.png#navIcon)](admin-gui.md)
-  <br/>
+* [App](app/app-description.md)
+* [Adapter](admin-gui.md)
 
 ## Adapter Description
 

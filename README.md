@@ -9,6 +9,9 @@ Documentation for IoBrokers Adapter from xXBJXx
 # Changelog
 
 ## Version
+### 0.1.3 (2022-06.07)
+* (xXBJXx) wallpanel app links updated an add warning to install from GitHub
+
 ### 0.1.2 (2022-06-06)
 * (xXBJXx) wallpanel changelog updated
 
