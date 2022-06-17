@@ -1,11 +1,11 @@
 import {navbar} from 'vuepress-theme-hope';
 
 export const de = navbar([
-	'/de/',
+	'/de-at/',
 	{
 		text: 'Adapter',
 		icon: 'repo',
-		prefix: '/de/',
+		prefix: '/de-at/',
 		children: [
 			{
 				text: 'Fully Tablet Control',

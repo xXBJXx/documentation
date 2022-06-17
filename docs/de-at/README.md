@@ -11,12 +11,12 @@ features:
 - title: Fully Tablet Control
   icon: read
   details: Mit dem Adapter können Sie sehr viele Daten vom Fully Kiosk Browser über die REST API abrufen und steuern.
-  link: /de/fully-tablet-control/description
+  link: /de-at/fully-tablet-control/description
 
 - title: Wallpanel
   icon: read
   details: Mit dem Adapter kann man ein paar Werte wie Helligkeit abfragen und über MQTT dann noch zusätzlich Batterie stand usw. abfragen.
-  link: /de/wallpanel/
+  link: /de-at/wallpanel/
 
 copyright: false
 ---

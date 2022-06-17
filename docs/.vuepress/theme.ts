@@ -5,7 +5,7 @@ import * as sidebar from './sidebar';
 const license = 'MIT Licensed | Copyright © 2021-2022 - xXBJXx️';
 
 export default hopeTheme({
-	// hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+	hostname: "https://xxbjxx.github.io/",
 
 	author: {
 		name: 'xXBJXx',
@@ -45,16 +45,10 @@ export default hopeTheme({
 
 			metaLocales: {
 				toc: 'Table of Contents',
-
 			},
-
-
 		},
 
-		/**
-		 * German locale config
-		 */
-		'/de/': {
+		"/de-at/": {
 			// navbar
 			navbar: navbar.de,
 
@@ -68,7 +62,6 @@ export default hopeTheme({
 
 			metaLocales: {
 				toc: 'Inhaltsverzeichnis',
-
 			},
 		},
 	},
@@ -111,6 +104,8 @@ export default hopeTheme({
 		//   // type: "waline",
 		//   // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
 		// },
+
+
 
 		mdEnhance: {
 			align: true,

@@ -1,7 +1,7 @@
 import {sidebar} from 'vuepress-theme-hope';
 
 export const de = sidebar({
-	'/de/': [
+	'/de-at/': [
 		{
 			text: 'Fully Tablet Control',
 			icon: 'read',

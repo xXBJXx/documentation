@@ -3,12 +3,15 @@ Documentation for IoBrokers Adapter from xXBJXx
 * Fully Tablet Control
 * Wallpanel
 
-[Docu page](https://xxbjxx.github.io/)
+[Docu page: https://xxbjxx.github.io](https://xxbjxx.github.io/)
 
 
 # Changelog
 
 ## Version
+### 0.1.4 (2022-06.17)
+* (xXBJXx) dependency update
+
 ### 0.1.3 (2022-06.07)
 * (xXBJXx) wallpanel app links updated an add warning to install from GitHub
 
