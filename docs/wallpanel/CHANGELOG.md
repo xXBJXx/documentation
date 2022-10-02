@@ -39,6 +39,16 @@ headerDepth: 2
 ---
 
 ## Version
+### 0.3.9 (2022-10-02)
+* (xXBJXx) dependencies updated
+* (xXBJXx) Moved global variable to constructor
+
+### 0.3.8 (2022-07-02)
+* (xXBJXx) removed the play Store Link and added the GitHub Link to the new version and add a Warning for the Installer from GitHub.
+* (xXBJXx) optimized the code
+* (xXBJXx) dependencies updated
+* (xXBJXx) Leave the device switched off when creating Problem solved
+
 ### 0.3.7 (2022-06-06)
 * (xXBJXx) Node version support set to >= v16.x because of new features of Node.js that are needed.
 * (xXBJXx) fixed mqtt topic Display Direction

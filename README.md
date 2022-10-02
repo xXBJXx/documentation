@@ -9,6 +9,9 @@ Documentation for IoBrokers Adapter from xXBJXx
 # Changelog
 
 ## Version
+### 0.1.5 (2022-06.17)
+* (xXBJXx) Wallpanel changelog update
+
 ### 0.1.4 (2022-06.17)
 * (xXBJXx) dependency update
 
