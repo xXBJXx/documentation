@@ -39,15 +39,25 @@ headerDepth: 2
 ---
 
 ## Version
+### 0.3.9 (2022-10-02)
+* (xXBJXx) Abhängigkeiten aktualisiert
+* (xXBJXx) globale Variable in den Konstruktor verschoben
+
+### 0.3.8 (2022-07-02)
+* (xXBJXx) den Play Store Link entfernt und den GitHub Link zur neuen Version hinzugefügt und eine Warnung für den Installer von GitHub hinzugefügt.
+* (xXBJXx) den Code optimiert.
+* (xXBJXx) Abhängigkeiten aktualisiert
+* (xXBJXx) Gerät beim Erstellen ausgeschaltet lassen Problem behoben
+
 ### 0.3.7 (2022-06-06)
 * (xXBJXx) Node-Versionsunterstützung auf >= v16.x gesetzt, da neue Funktionen von Node.js benötigt werden.
 * (xXBJXx) mqtt topic Anzeige Richtung korrigiert
 
 ### 0.3.6 (2022-05-30)
-* (xXBJXx) Vorbereitung zur Veröffentlichung im Iobroker Repo. Adapter-Check Probleme bearbeitet
+* (xXBJXx) Vorbereitung zur Veröffentlichung im ioBroker Repo. Adapter-Check Probleme bearbeitet
 
 ### 0.3.5 (2022-05-30)
-* (xXBJXx) Aktualisierung des Changelogs und Behebung von Typproblemen
+* (xXBJXx) Aktualisierung des Changelogs und Behebung von Typ problemen
 
 ### 0.3.3 (2022-05-30)
 * (xXBJXx) Update Abhängigkeiten
