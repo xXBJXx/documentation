@@ -11,6 +11,7 @@ Documentation for IoBrokers Adapter from xXBJXx
 ## Version
 ### 0.1.5 (2022-06.17)
 * (xXBJXx) Wallpanel changelog update
+* (xXBJXx) deactivation search Plugin
 
 ### 0.1.4 (2022-06.17)
 * (xXBJXx) dependency update

@@ -1,6 +1,6 @@
 import {defineUserConfig} from 'vuepress';
 import theme from './theme';
-import {searchPlugin} from '@vuepress/plugin-search';
+// import {searchPlugin} from '@vuepress/plugin-search';
 
 export default defineUserConfig({
 	base: '/',
@@ -21,17 +21,17 @@ export default defineUserConfig({
 
 
 	plugins: [
-		searchPlugin({
-			locales: {
-				'/': {
-					placeholder: 'Search...',
-				},
-				'/de-at/': {
-					placeholder: 'Suche...',
-				},
-			},
-			maxSuggestions: 15,
-		}),
+		// searchPlugin({
+		// 	locales: {
+		// 		'/': {
+		// 			placeholder: 'Search...',
+		// 		},
+		// 		'/de-at/': {
+		// 			placeholder: 'Suche...',
+		// 		},
+		// 	},
+		// 	maxSuggestions: 15,
+		// }),
 	],
 
 	theme,
